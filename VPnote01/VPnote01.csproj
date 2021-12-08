@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="aARM_3400.jpg" />
+    <None Remove="agenda.png" />
+    <None Remove="ARM_3400.JPG" />
+    <None Remove="diary %281%29.png" />
+    <None Remove="diary.png" />
+    <None Remove="journal.png" />
+    <None Remove="notes icon_3785512.png" />
+    <None Remove="open-book.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="aARM_3400.jpg" />
+    <Resource Include="agenda.png" />
+    <Resource Include="ARM_3400.JPG" />
+    <Resource Include="diary (1).png" />
+    <Resource Include="diary.png" />
+    <Resource Include="journal.png" />
+    <Resource Include="notes icon_3785512.png" />
+    <Resource Include="open-book.png" />
+  </ItemGroup>
+
+</Project>

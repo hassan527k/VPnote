@@ -1,0 +1,286 @@
+﻿<Window x:Class="VPnote01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VPnote01" 
+        mc:Ignorable="d"
+        
+    Title="MainWindow" Height="500
+        " Width="800"
+        ResizeMode ="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" 
+        >
+    <Window.CommandBindings>
+        <CommandBinding Command="Cut" CanExecute="CommandBinding_CanExecute" Executed="CommandBinding_Executed_1"></CommandBinding>
+        <CommandBinding Command="Copy" CanExecute="CommandBinding_CanExecute" Executed="CommandBinding_Executed"></CommandBinding>
+        <CommandBinding Command="Paste" CanExecute="CommandBinding_CanExecute" Executed="CommandBinding_Executed_2"></CommandBinding>
+    </Window.CommandBindings>
+    <Grid>
+        <TabControl x:Name="tabcontrol"  TabStripPlacement="Left">
+            <TabItem x:Name="tab_favorites" Header="Favourites" Width="120" Height="50" FontSize="15" BorderBrush="{x:Null}">
+                <Grid Background="#FFE5E5E5">
+                    <ListBox Background="{x:Null}" >
+                        <Border x:Name="noteFav01_border"  BorderThickness="1,1,1,1" BorderBrush="Black" UseLayoutRounding="True" CornerRadius="10,10,10,10" Opacity="100" PreviewMouseLeftButtonDown="note01B_clicked" Height="120" Width="420" Visibility="Collapsed" Margin="20,10,0,5">
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White" Offset="0.6"/>
+                                    <GradientStop Color="#FFEAE8E8" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                            <StackPanel>
+                                <TextBlock x:Name="savednoteFav01T" Text="TextBlocklidhgslfdssdfsfdffssfdfsadadsadsasdas dsddhjsd" TextWrapping="Wrap" Height="20" Opacity="100" Margin="10,4,5,0" FontWeight="Bold" HorizontalAlignment="Left" />
+                                <TextBlock x:Name="savednoteFav01" Text="TextBlockfdg;oigihj;kdfjsgvfsdkjsdfsdlbfdsdsfsdfsdsfslsdjhbsfsdjfhb" TextWrapping="Wrap" Height="83" Opacity="100" Margin="10,5,5,4" HorizontalAlignment="Left"/>
+                            </StackPanel>
+                        </Border>
+                        <Border x:Name="noteFav02_border" BorderThickness="1,1,1,1" BorderBrush="Black" UseLayoutRounding="True" CornerRadius="10,10,10,10" Opacity="100" PreviewMouseLeftButtonDown="note02B_clicked" Visibility="Collapsed" Height="120" Width="420" Margin="20,10,0,5" >
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White" Offset="0.6"/>
+                                    <GradientStop Color="#FFEAE8E8" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                            <StackPanel >
+                                <TextBlock x:Name="savednoteFav02T" Text="TextBlock" TextWrapping="Wrap" Height="20" Opacity="100" Margin="4,4,0,0" FontWeight="Bold" HorizontalAlignment="Left" />
+                                <TextBlock x:Name="savednoteFav02" Text="TextBlock" TextWrapping="Wrap" Height="83"  Opacity="100" Margin="10,5,0,0" HorizontalAlignment="Left" />
+                            </StackPanel>
+                        </Border>
+                        <Border x:Name="noteFav03_border" BorderThickness="1,1,1,1" BorderBrush="Black" UseLayoutRounding="True" CornerRadius="10,10,10,10" Opacity="100" PreviewMouseLeftButtonDown="note03B_clicked" Height="120" Width="420" Visibility="Collapsed" Margin="20,10,0,5">
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White" Offset="0.6"/>
+                                    <GradientStop Color="#FFEAE8E8" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                            <StackPanel >
+                                <TextBlock x:Name="savednoteFav03T" Text="TextBlock" TextWrapping="Wrap" Height="20" Opacity="100" Margin="4,4,0,0" FontWeight="Bold" HorizontalAlignment="Left" />
+                                <TextBlock x:Name="savednoteFav03" Text="TextBlock" TextWrapping="Wrap" Height="83"  Opacity="100" Margin="4,0,0,0" HorizontalAlignment="Left"/>
+                            </StackPanel>
+                        </Border>
+                        <Border x:Name="noteFav04_border" BorderThickness="1,1,1,1" BorderBrush="Black" UseLayoutRounding="True" CornerRadius="10,10,10,10" Opacity="100" PreviewMouseLeftButtonDown="note04B_clicked" Height="120" Width="420" Visibility="Collapsed" Margin="20,10,0,5">
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White" Offset="0.6"/>
+                                    <GradientStop Color="#FFEAE8E8" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                            <StackPanel >
+                                <TextBlock x:Name="savednoteFav04T" Text="TextBlock" TextWrapping="Wrap" Height="20" Opacity="100" Margin="4,4,0,0" FontWeight="Bold" HorizontalAlignment="Left" />
+                                <TextBlock x:Name="savednoteFav04" Text="TextBlock" TextWrapping="Wrap" Height="83"  Opacity="100" Margin="4,0,0,0" HorizontalAlignment="Left"/>
+                            </StackPanel>
+                        </Border>
+                        <Border x:Name="noteFav05_border" BorderThickness="1,1,1,1" BorderBrush="Black" UseLayoutRounding="True" CornerRadius="10,10,10,10" Opacity="100" PreviewMouseLeftButtonDown="note05B_clicked" Visibility="Collapsed" Height="120" Width="420" Margin="20,10,0,5">
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White" Offset="0.6"/>
+                                    <GradientStop Color="#FFEAE8E8" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                            <StackPanel >
+                                <TextBlock x:Name="savednoteFav05T" Text="TextBlock" TextWrapping="Wrap" Height="20" Opacity="100" Margin="4,4,0,0" FontWeight="Bold" HorizontalAlignment="Left" />
+                                <TextBlock x:Name="savednoteFav05" Text="TextBlock" TextWrapping="Wrap" Height="83"  Opacity="100" Margin="4,0,0,0" HorizontalAlignment="Left"/>
+                            </StackPanel>
+                        </Border>
+                        <Border x:Name="noteFav06_border" BorderThickness="1,1,1,1" BorderBrush="Black" UseLayoutRounding="True" CornerRadius="10,10,10,10" Opacity="100" PreviewMouseLeftButtonDown="note06B_clicked" Height="120" Width="420" Visibility="Collapsed" Margin="20,10,0,5">
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White" Offset="0.6"/>
+                                    <GradientStop Color="#FFEAE8E8" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                            <StackPanel >
+                                <TextBlock x:Name="savednoteFav06T" Text="TextBlock" TextWrapping="Wrap" Height="20" Opacity="100" Margin="4,4,0,0" FontWeight="Bold" HorizontalAlignment="Left" />
+                                <TextBlock x:Name="savednoteFav06" Text="TextBlock" TextWrapping="Wrap" Height="83"  Opacity="100" Margin="4,0,0,0" HorizontalAlignment="Left"/>
+                            </StackPanel>
+                        </Border>
+
+
+                    </ListBox>
+                    <Button Content="Refresh Favorites" HorizontalAlignment="Right" Margin="0,21,10,0" VerticalAlignment="Top" Click="ReFav_Click" BorderBrush="#FFB2B2B2" Width="138">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFE5E5E5"/>
+                                <GradientStop Color="#FFBFBFBF" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <TextBlock x:Name="txt_nofav" Text="You don't have any favorite notes &#xA;Mark notes as favorite from &quot;Saved Notes&quot; section" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" Visibility="Visible"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tab_NewNote" Header="New Note"  VerticalAlignment="Top" Width="120" Height="50" FontSize="15">
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="txt_notepad" HorizontalAlignment="Left" Margin="39,149,30,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="498" Height="235"/>
+                    <TextBox x:Name="txt_title" HorizontalAlignment="Left" Margin="39,88,30,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="498" Height="23"/>
+                    <Button x:Name="btn_save" Content="Save" Margin="574,410,13,0" VerticalAlignment="Top" RenderTransformOrigin="0.568,-0.328" Click="btn_save_Click"/>
+                    <Button x:Name="btn_delete" Content="Delete" HorizontalAlignment="Left" Margin="473,410,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.568,-0.328" Width="85" Click="btn_delete_Click" />
+                    <Button x:Name="btn_clear" Content="Clear" HorizontalAlignment="Left" Margin="370,410,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.568,-0.328" Width="85" Click="btn_clear_Click"  />
+                    <Menu Height="20" Margin="0,10,0,0" Background="#00F0F0F0" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <MenuItem Header="Options" BorderBrush="#FFACACAC" BorderThickness="0.5,0.5,0.5,0.5" Height="17" VerticalAlignment="Stretch">
+                            <MenuItem.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FFE5E5E5"/>
+                                    <GradientStop Color="#FFBFBFBF" Offset="1"/>
+                                </LinearGradientBrush>
+                            </MenuItem.Background>
+                            <MenuItem x:Name="MenuCut" Command="Cut" HorizontalAlignment="Center" Height="20"/>
+                            <MenuItem x:Name="MenuCopy" Command="Copy" HorizontalAlignment="Center" Height="20"/>
+                            <MenuItem x:Name="Menupaste" Command="Paste" HorizontalAlignment="Center" Height="20"/>
+                            <Separator x:Name="Menu8Separate" HorizontalAlignment="Left" Height="2" Width="Auto"/>
+                            <MenuItem x:Name="MenuSelectAll" InputGestureText="Ctrl + A" Header="Select All" HorizontalAlignment="Center" Height="20"/>
+                            <MenuItem x:Name="MenuTimeDate" InputGestureText="Ctrl + T" Header="Time/Date" HorizontalAlignment="Center" Height="20"/>
+                            <MenuItem x:Name="MenuWordWrap" InputGestureText="Ctrl + W" Header="Word Wrap" HorizontalAlignment="Center" Height="20"/>
+                        </MenuItem>
+                    </Menu>
+                    <TextBlock x:Name="lbl_note" Text="Note" HorizontalAlignment="Left" Margin="39,129,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="39,68,0,0" Text="Title" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tab_SavedNotes" Header="Saved Notes" HorizontalAlignment="Center" VerticalAlignment="Center" Width="120" Height="50" FontSize="15">
+                <Grid Background="#FFE5E5E5">
+
+                    <ListBox Background="{x:Null}" >
+                        <Border x:Name="note01_border"  BorderThickness="1,1,1,1" BorderBrush="Black" UseLayoutRounding="True" CornerRadius="10,10,10,10" Opacity="100" PreviewMouseLeftButtonDown="note01B_clicked" Height="120" Width="420" Visibility="Collapsed" Margin="20,10,0,5">
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White" Offset="0.6"/>
+                                    <GradientStop Color="#FFEAE8E8" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                            <StackPanel>
+                                <StackPanel Orientation="Horizontal" >
+                                    <CheckBox x:Name="chk_note01" Height="22" HorizontalAlignment="Right" Margin="5,5,5,0"/>
+                                    <TextBlock x:Name="savednote01T" Text="TextBlocklidhgslfdssdfsfdffssfdfsa dadsgdfgfdgdh fgfdfg gfdadsasdas dsddhjsd" TextWrapping="Wrap" Height="20" Opacity="100" FontWeight="Bold" Width="387" />
+                                </StackPanel>
+                                <TextBlock x:Name="savednote01" Text="TextBlockfdg;oigihj;kdfjsgvfsdkjsdfsdlbfdsdsfsdfsdsfslsdjhbsfsdjfhb" TextWrapping="Wrap" Height="83" Opacity="100" Margin="10,5,5,4" HorizontalAlignment="Left" PreviewMouseLeftButtonDown="note01T_clicked"/>
+                            </StackPanel>
+                        </Border>
+                        <Border x:Name="note02_border" BorderThickness="1,1,1,1" BorderBrush="Black" UseLayoutRounding="True" CornerRadius="10,10,10,10" Opacity="100" PreviewMouseLeftButtonDown="note02B_clicked" Visibility="Collapsed" Height="120" Width="420" Margin="20,10,0,5" >
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White" Offset="0.6"/>
+                                    <GradientStop Color="#FFEAE8E8" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                            <StackPanel >
+                                <StackPanel Orientation="Horizontal" >
+                                    <CheckBox x:Name="chk_note02" Height="22" HorizontalAlignment="Right" Margin="5,5,5,0"/>
+                                    <TextBlock x:Name="savednote02T" Text="TextBlfgdfggfdgdg  fgdgfddgfdgdg  gfgffdggfdggffgdgfddfgdfg ddgggdgfdfgdock" TextWrapping="Wrap" Height="20" Opacity="100" FontWeight="Bold" />
+                                </StackPanel>
+                                <TextBlock x:Name="savednote02" Text="TextBlock" TextWrapping="Wrap" Height="83"  Opacity="100" Margin="10,5,0,0" HorizontalAlignment="Left" PreviewMouseLeftButtonDown="note02T_clicked" />
+                            </StackPanel>
+                        </Border>
+                        <Border x:Name="note03_border" BorderThickness="1,1,1,1" BorderBrush="Black" UseLayoutRounding="True" CornerRadius="10,10,10,10" Opacity="100" PreviewMouseLeftButtonDown="note03B_clicked" Height="120" Width="420" Visibility="Collapsed" Margin="20,10,0,5">
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White" Offset="0.6"/>
+                                    <GradientStop Color="#FFEAE8E8" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                            <StackPanel >
+                                <StackPanel Orientation="Horizontal" >
+                                    <CheckBox x:Name="chk_note03" Height="22" HorizontalAlignment="Right" Margin="5,5,5,0"/>
+                                    <TextBlock x:Name="savednote03T" Text="TextBlock" TextWrapping="Wrap" Height="20" Opacity="100" FontWeight="Bold" />
+                                </StackPanel>
+                                <TextBlock x:Name="savednote03" Text="TextBlock" TextWrapping="Wrap" Height="83"  Opacity="100" Margin="4,0,0,0" HorizontalAlignment="Left" PreviewMouseLeftButtonDown="note03T_clicked"/>
+                            </StackPanel>
+                        </Border>
+                        <Border x:Name="note04_border" BorderThickness="1,1,1,1" BorderBrush="Black" UseLayoutRounding="True" CornerRadius="10,10,10,10" Opacity="100" PreviewMouseLeftButtonDown="note04B_clicked" Height="120" Width="420" Visibility="Collapsed" Margin="20,10,0,5">
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White" Offset="0.6"/>
+                                    <GradientStop Color="#FFEAE8E8" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                            <StackPanel >
+                                <StackPanel Orientation="Horizontal" >
+                                    <CheckBox x:Name="chk_note04" Height="22" HorizontalAlignment="Right" Margin="5,5,5,0"/>
+                                    <TextBlock x:Name="savednote04T" Text="TextBlock" TextWrapping="Wrap" Height="20" Opacity="100" FontWeight="Bold" />
+                                </StackPanel>
+                                <TextBlock x:Name="savednote04" Text="TextBlock" TextWrapping="Wrap" Height="83"  Opacity="100" Margin="4,0,0,0" HorizontalAlignment="Left" PreviewMouseLeftButtonDown="note04T_clicked"/>
+                            </StackPanel>
+                        </Border>
+                        <Border x:Name="note05_border" BorderThickness="1,1,1,1" BorderBrush="Black" UseLayoutRounding="True" CornerRadius="10,10,10,10" Opacity="100" PreviewMouseLeftButtonDown="note05B_clicked" Visibility="Collapsed" Height="120" Width="420" Margin="20,10,0,5">
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White" Offset="0.6"/>
+                                    <GradientStop Color="#FFEAE8E8" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                            <StackPanel >
+                                <StackPanel Orientation="Horizontal" >
+                                    <CheckBox x:Name="chk_note05" Height="22" HorizontalAlignment="Right" Margin="5,5,5,0"/>
+                                    <TextBlock x:Name="savednote05T" Text="TextBlock" TextWrapping="Wrap" Height="20" Opacity="100" FontWeight="Bold" />
+                                </StackPanel>
+                                <TextBlock x:Name="savednote05" Text="TextBlock" TextWrapping="Wrap" Height="83"  Opacity="100" Margin="4,0,0,0" HorizontalAlignment="Left" PreviewMouseLeftButtonDown="note05T_clicked"/>
+                            </StackPanel>
+                        </Border>
+                        <Border x:Name="note06_border" BorderThickness="1,1,1,1" BorderBrush="Black" UseLayoutRounding="True" CornerRadius="10,10,10,10" Opacity="100" PreviewMouseLeftButtonDown="note06B_clicked" Height="120" Width="420" Visibility="Collapsed" Margin="20,10,0,5">
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White" Offset="0.6"/>
+                                    <GradientStop Color="#FFEAE8E8" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                            <StackPanel >
+                                <StackPanel Orientation="Horizontal" >
+                                    <CheckBox x:Name="chk_note06" Height="22" HorizontalAlignment="Right" Margin="5,5,5,0"/>
+                                    <TextBlock x:Name="savednote06T" Text="TextBlock" TextWrapping="Wrap" Height="20" Opacity="100" FontWeight="Bold" />
+                                </StackPanel>
+                                <TextBlock x:Name="savednote06" Text="TextBlock" TextWrapping="Wrap" Height="83"  Opacity="100" Margin="4,0,0,0" HorizontalAlignment="Left" PreviewMouseLeftButtonDown="note06T_clicked"/>
+                            </StackPanel>
+                        </Border>
+
+
+                    </ListBox>
+                    <TextBlock x:Name="txt_nosave" Text="You don't have any saved notes yet &#x0a;Go to &quot;New Note&quot; section" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" Visibility="Visible"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tab_RecycleBin" Header="Recycle Bin" HorizontalAlignment="Center" VerticalAlignment="Center" Width="120" Height="50" FontSize="15">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem x:Name="tab_Profile" Header="Profile" HorizontalAlignment="Center" VerticalAlignment="Center" Width="120" Height="50" FontSize="15">
+                <Grid Background="#FFE5E5E5">
+                    <Border BorderThickness="1" Margin="38,116,574,302" CornerRadius="50,50,50,50" Width="60" Height="60">
+                        <Border.Background>
+                            <ImageBrush ImageSource="/aARM_3400.jpg" TileMode="None" Stretch="UniformToFill">
+                                <ImageBrush.RelativeTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="1.3" ScaleY="1.3"/>
+                                        <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                                        <RotateTransform Angle="0" CenterY="0.5" CenterX="0.5"/>
+                                        <TranslateTransform Y="0.02"/>
+                                    </TransformGroup>
+                                </ImageBrush.RelativeTransform>
+                            </ImageBrush>
+                        </Border.Background>
+                    </Border>
+                    <TextBlock Text="Hassan Khan" TextWrapping="Wrap" Margin="112,123,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <TextBlock Text="User Information" TextWrapping="Wrap" Margin="30,43,0,0" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="22" />
+
+                    <TextBlock Text="hassan1234@gmail.com" TextWrapping="Wrap" Margin="112,148,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <TextBlock Text="Theme" TextWrapping="Wrap" Margin="30,247,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18"/>
+                    <ComboBox Width="89" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,272,0,0" Height="21" SelectedIndex="0" FontSize="11">
+                        <ComboBoxItem Content="Light"/>
+                        <ComboBoxItem Content="Dark"/>
+                    </ComboBox>
+                    <Button Content="About" HorizontalAlignment="Left" Margin="30,395,0,0" VerticalAlignment="Top" Height="32" Width="55" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18"/>
+                    <CheckBox x:Name="chk_TitleBar" Content="Show Title bar" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,332,0,0" FontSize="18" FlowDirection="RightToLeft" VerticalContentAlignment="Center" Checked="chk_TitleBar_Checked" Unchecked="chk_TitleBar_unChecked"/>
+                    <Button x:Name="btn_signout" Content="Sign out" HorizontalAlignment="Left" VerticalAlignment="Top" Height="18" Width="47" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="12" Margin="111,173,0,0" HorizontalContentAlignment="Left" Padding="0,0,0,0" VerticalContentAlignment="Bottom" FlowDirection="LeftToRight" ScrollViewer.VerticalScrollBarVisibility="Disabled" Foreground="#FF494949" Click="btn_signout_Click"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Button x:Name="btn_exit" Content="Exit" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="36" Width="119" FontSize="15" Margin="1,0,0,2" BorderBrush="#FF878787" Click="btn_exit_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF0F0F0"/>
+                    <GradientStop Color="#FFE5E5E5" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+
+
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,72 @@
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\bin\Debug\net5.0-windows\VPnote01.exe
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\bin\Debug\net5.0-windows\VPnote01.deps.json
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\bin\Debug\net5.0-windows\VPnote01.runtimeconfig.json
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\bin\Debug\net5.0-windows\VPnote01.runtimeconfig.dev.json
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\bin\Debug\net5.0-windows\VPnote01.dll
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\bin\Debug\net5.0-windows\ref\VPnote01.dll
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\bin\Debug\net5.0-windows\VPnote01.pdb
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.csproj.AssemblyReference.cache
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01_MarkupCompile.cache
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01_MarkupCompile.lref
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.g.resources
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.AssemblyInfoInputs.cache
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.AssemblyInfo.cs
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.csproj.CoreCompileInputs.cache
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.dll
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\obj\Debug\net5.0-windows\ref\VPnote01.dll
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.pdb
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.genruntimeconfig.cache
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\obj\Debug\net5.0-windows\Window1.g.cs
+C:\Users\Hassan\source\repos\VPnote01\VPnote01\obj\Debug\net5.0-windows\Window1.baml
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\bin\Debug\net5.0-windows\VPnote01.exe
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\bin\Debug\net5.0-windows\VPnote01.deps.json
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\bin\Debug\net5.0-windows\VPnote01.runtimeconfig.json
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\bin\Debug\net5.0-windows\VPnote01.runtimeconfig.dev.json
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\bin\Debug\net5.0-windows\VPnote01.dll
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\bin\Debug\net5.0-windows\ref\VPnote01.dll
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\bin\Debug\net5.0-windows\VPnote01.pdb
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.csproj.AssemblyReference.cache
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\obj\Debug\net5.0-windows\Window1.g.cs
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01_MarkupCompile.cache
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01_MarkupCompile.lref
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\obj\Debug\net5.0-windows\Window1.baml
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.g.resources
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.AssemblyInfoInputs.cache
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.AssemblyInfo.cs
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.csproj.CoreCompileInputs.cache
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.dll
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\obj\Debug\net5.0-windows\ref\VPnote01.dll
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.pdb
+C:\Users\Shayan\Downloads\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.genruntimeconfig.cache
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\bin\Debug\net5.0-windows\VPnote01.exe
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\bin\Debug\net5.0-windows\VPnote01.deps.json
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\bin\Debug\net5.0-windows\VPnote01.runtimeconfig.json
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\bin\Debug\net5.0-windows\VPnote01.runtimeconfig.dev.json
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\bin\Debug\net5.0-windows\VPnote01.dll
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\bin\Debug\net5.0-windows\ref\VPnote01.dll
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\bin\Debug\net5.0-windows\VPnote01.pdb
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.csproj.AssemblyReference.cache
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\obj\Debug\net5.0-windows\Window1.g.cs
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01_MarkupCompile.cache
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01_MarkupCompile.lref
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\obj\Debug\net5.0-windows\Window1.baml
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.g.resources
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.AssemblyInfoInputs.cache
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.AssemblyInfo.cs
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.csproj.CoreCompileInputs.cache
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.dll
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\obj\Debug\net5.0-windows\ref\VPnote01.dll
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.pdb
+C:\Users\Hassan\source\repos\VPnote01 (2)\VPnote01\VPnote01\obj\Debug\net5.0-windows\VPnote01.genruntimeconfig.cache
